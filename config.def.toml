@@ -1,0 +1,22 @@
+token = ""
+sudoers = [""]
+
+# NPM Logging levels :
+#
+#  error: 0, 
+#  warn: 1, 
+#  info: 2, 
+#  verbose: 3, 
+#  debug: 4, 
+#  silly: 5 
+
+database = "database.sqlite"
+
+[logging.console]
+enabled = true
+minimal = "verbose"
+
+[logging.file]
+enabled = false
+path = "genki.log"
+minimal = "info"

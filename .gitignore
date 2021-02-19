@@ -1,0 +1,7 @@
+/node_modules/
+/genki.log
+/config.toml
+/database.sqlite
+/Lavalink.jar
+/logs
+/*.core
